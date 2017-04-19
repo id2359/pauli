@@ -21,3 +21,11 @@ vec4 =: verb define
 'k p q r'=. y
 (k * I ) +  (p * S1) + (q * S2) + (r * S3)
 )
+
+NB. quaternions
+
+Q1 =: 0j_1 * S1
+Q2 =: 0j_1 * S2
+Q3 =: 0j_1 * S3
+
+
